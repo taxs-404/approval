@@ -686,7 +686,7 @@ def main_apv():
         input(' Exit And Again Run The Command');os.system('python taxs.py')
         tks = ('Hello%20TOXIC-× MR-ERROR%20Owner%20Kashif%20!!%20Please%20Approve%20My%20Key%20Key%20:%20'+key1);os.system('am start FB.me/+?text='+tks)
 
-    r1 = requests.get('https://github.com/taxs-404/approval').text
+    r1 = requests.get('https://github.com/taxs-404/approval/blob/main/approval.txt').text
    
     if key1 in r1:
         menu()
