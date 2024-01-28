@@ -21,7 +21,7 @@ BM = '\x1b[1;101m' # BELAJANG MERAH
 BA = '\x1b[1;100m' # BELAKANG ABU ABU
 import os
 os.system('git pull')
-os.system('mkdir TOXIC')
+os.system('mkdir TAXS')
 
 import os,zlib
 
@@ -126,8 +126,8 @@ srange = 0
 saved = []
 totaldmp = 0
 filter = []
-#os.system("xd-open https://github.com/Tox1c-143")
-sys.stdout.write('\x1b]2; TOXIC\x07')
+#os.system("xd-open https://github.com/taxs-404/approval")
+sys.stdout.write('\x1b]2; TAXS\x07')
 S = '\033[1;37m'
 A = '\x1b[38;5;208m'
 R = '\x1b[38;5;46m'
@@ -195,7 +195,7 @@ python FILE.py''')
         print('\n Select Wrong option ... ')
         time.sleep(2)
         Toxic(allkey)
-       # os.system('xdg-open https://wa.me/+8801310067277')
+       # os.system('xdg-open https://wa.me/+639098660941')
 #---------------------[ USER - AGENT ] -------------------#
 def uaxxx():
     ua='[FBAN/FB4A;FBAV/83.0.0.5091;FBBV/8586033;FBDM/{density=1,width=720,height=1280};FBLC/en_US;FBRV/5718626;FBCR/null;FBMF/sony Ericsson Xperia U;FBBD/sony Ericsson Xperia U;FBPN/com.facebook.katana;FBDV/;FBSV/5.1.1;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
@@ -685,7 +685,7 @@ def main_apv():
         kok.close()
     
         input(' Exit And Again Run The Command');os.system('python taxs.py')
-        tks = ('Hello%20TOXIC-× MR-ERROR%20Owner%20Kashif%20!!%20Please%20Approve%20My%20Key%20Key%20:%20'+key1);os.system('am start FB.me/+?text='+tks)
+        tks = ('Hello%20TAXS-× MS-ART%20Owner%20Kashif%20!!%20Please%20Approve%20My%20Key%20Key%20:%20'+key1);os.system('am start FB.me/+?text='+tks)
 
     r1 = requests.get('https://github.com/taxs-404/approval/blob/main/approval.txt').text
    
@@ -698,7 +698,7 @@ def main_apv():
         linex()
         print('\x1b[38;5;46mKey : \x1b[38;5;46m' + key1)
         linex() 
-        print(f'\x1b[38;5;196m[\x1b[1;97m=\x1b[38;5;196m] \x1b[38;5;46mTHIS TOOL IS PAID NEED APPROVAL ')
+        print('\x1b[38;5;196m[\x1b[1;97m=\x1b[38;5;196m] \x1b[38;5;46mTHIS TOOL IS PAID NEED APPROVAL ')
         linex()
         input('\x1b[38;5;46mPress Enter To send key Admin')
         tks = ('Hello%20DOD%20Owner%20TAXS-XD%20!!%20Please%20Approve%20My%20Key%20Key%20:%20'+key1);os.system('am start https://www.facebook.com/fvlsmnbn?text='+tks)
