@@ -8,8 +8,7 @@ import os,base64,zlib,pip,urllib
 import os,zlib,time,datetime
 from concurrent.futures import ThreadPoolExecutor as tred
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
-import os
-import requests
+import os
 import httpx
 BN = '\x1b[1;107m' # BELAKANG PUTIH
 BBL = '\x1b[1;106m' # BELAKANG BIRU LANGIT
