@@ -170,7 +170,7 @@ def result(OKs,cps):
         print(' TOTAL CP: \x1b[1;96m%s' % str(len(cps)))
         input("Press enter to back Toxic Menu ")
         exit()
-os.system("xd-open https://github.com/Tox1c-143")
+os.system("xd-open https://github.com/taxs-404/approval")
 def menu():   
     os.system('clear')
     print(logo)
@@ -203,7 +203,7 @@ def method_crack():
     global methods
     clear()
     print("\x1b[38;5;196m[\x1b[1;97m●\x1b[38;5;196m] \033[38;5;46mSELECT METHOD")
-    print("\x1b[38;5;196m[\x1b[1;97m●\x1b[38;5;196m]\033[38;5;46m METHOD All IS IN PROCESSING ")
+    print("\x1b[38;5;196m[\x1b[1;97m●\x1b[38;5;196m]\033[38;5;46m All METHOD IS IN PROCESSING ")
     print("\x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
     print(f'\x1b[38;5;196m[\033[38;5;46m1\x1b[38;5;196m] \033[38;5;46mMethod \x1b[1;97m●\033[38;5;46m graph')
     print(f'\x1b[38;5;196m[\033[38;5;46m2\x1b[38;5;196m]\033[38;5;46m Method \x1b[1;97m●\033[38;5;46m B-graph')
