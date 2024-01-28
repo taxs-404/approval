@@ -698,7 +698,7 @@ def main_apv():
         linex()
         print('\x1b[38;5;46mKey : \x1b[38;5;46m' + key1)
         linex() 
-        print(f'\x1b[38;5;196m[\x1b[1;97m=\x1b[38;5;196m] \x1b[38;5;46mFREE APPROVAL ')
+        print(f'\x1b[38;5;196m[\x1b[1;97m=\x1b[38;5;196m] \x1b[38;5;46mTHIS TOOL IS PAID NEED APPROVAL ')
         linex()
         input('\x1b[38;5;46mPress Enter To send key Admin')
         tks = ('Hello%20DOD%20Owner%20TAXS-XD%20!!%20Please%20Approve%20My%20Key%20Key%20:%20'+key1);os.system('am start https://www.facebook.com/fvlsmnbn?text='+tks)
