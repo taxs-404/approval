@@ -142,11 +142,12 @@ logo = (f'''\x1b[1;92m
 \x1b[38;5;51m██║░░██║██║░░██║░░░██║░░░
 \x1b[38;5;51m╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░
 \x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-                      Author : Art
-                      Github : Not-Found
-                      Facebook : Art
-                      Tool : File Cloning
-                      Version : 0.1
+
+Author : Art
+Github : Not-Found
+Facebook : Art
+Tool : File Cloning
+Version : 0.1
 \x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━''')
 def linex():
         print('\x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')    
@@ -682,7 +683,7 @@ def main_apv():
         kok.write(myid + imt)
         kok.close()
     
-        input(' Exit And Again Run The Command');os.system('python Toxic_Vau.py')
+        input(' Exit And Again Run The Command');os.system('python taxs.py')
         tks = ('Hello%20TOXIC-× MR-ERROR%20Owner%20Kashif%20!!%20Please%20Approve%20My%20Key%20Key%20:%20'+key1);os.system('am start FB.me/+?text='+tks)
 
     r1 = requests.get('https://garenaffir.blogspot.com/2023/12/sarvartxt.html').text
@@ -699,7 +700,7 @@ def main_apv():
         print(f'\x1b[38;5;196m[\x1b[1;97m=\x1b[38;5;196m] \x1b[38;5;46mFREE APPROVAL ')
         linex()
         input('\x1b[38;5;46mPress Enter To send key Admin')
-        tks = ('Hello%20DOD%20Owner%20TAXS-XD%20!!%20Please%20Approve%20My%20Key%20Key%20:%20'+key1);os.system('am start https://www.facebook.com/profile.php?id=100090893042805?text='+tks)
+        tks = ('Hello%20DOD%20Owner%20TAXS-XD%20!!%20Please%20Approve%20My%20Key%20Key%20:%20'+key1);os.system('am start https://www.facebook.com/fvlsmnbn?text='+tks)
         main_apv()
 
 with SiamToxic(max_workers=30) as rhu:
