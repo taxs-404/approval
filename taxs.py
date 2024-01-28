@@ -142,7 +142,6 @@ logo = (f'''\x1b[1;92m
 \x1b[38;5;51m██║░░██║██║░░██║░░░██║░░░
 \x1b[38;5;51m╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░
 \x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
 Author : Art
 Github : Not-Found
 Facebook : Art
@@ -168,7 +167,7 @@ def result(OKs,cps):
         print(' \x1b[1;92m\x1b[1;91m\x1b[1;96m\x1b[0mThe Cloning Has Been Complete\x1b[1;96m\x1b[1;91m\x1b[1;92m\x1b[0m')
         print(' TOTAL OK: \x1b[1;92m%s' % str(len(oks)))
         print(' TOTAL CP: \x1b[1;96m%s' % str(len(cps)))
-        input("Press enter to back Toxic Menu ")
+        input("Press enter to back Taxs Menu ")
         exit()
 os.system("xd-open https://github.com/taxs-404/approval")
 def menu():   
