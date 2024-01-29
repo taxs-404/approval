@@ -232,7 +232,7 @@ def SEVEX():
                         line()
                         xd=input('\x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mCHOOSE \x1b[38;5;8m: \033[1;37m')
                         
-                        if xd in ['1','0']:
+                        if xd in ['1','01']:
                                 clear()
                                 
                                 print('\x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mPUT FILE EXAMPLE \x1b[38;5;8m:  \033[1;37m/sdcard/sevex.txt ')
@@ -281,8 +281,8 @@ def SEVEX():
                                         clear()
                                         total_ids = str(len(fo))
                                         
-                                        print(f'  \x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mALIVE IDS SAVE IN  \033[38;5;8m:   \033[1;32mAVIm{mthd}-OK.txt') 
-                                        print(f'  \x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mCOOKIES SAVE IN    \033[38;5;8m:   \033[1;32mAVIm{mthd}-COOKIES.txt') 
+                                        print(f'  \x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mALIVE IDS SAVE IN  \033[38;5;8m:   \033[1;32mSEVEXm{mthd}-OK.txt') 
+                                        print(f'  \x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mCOOKIES SAVE IN    \033[38;5;8m:   \033[1;32mSEVEXm{mthd}-COOKIES.txt') 
                                         print(f'  \x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mMETHOD            \x1b[38;5;8m :   \033[1;32mM{mthd}')
                                         print(f"  \x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mCLONING STARTED   \033[38;5;8m :   \033[1;36m"+str(a)+"\033[1;37m:\033[1;36m"+str(lt()[4])+" "+ tag+"\x1b[1;32m")
                                         line()
