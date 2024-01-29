@@ -169,7 +169,7 @@ def clear():
 	print(logo)
 logo =(""" \x1b[38;5;8m
 
- ░██████╗███████╗██╗░░░██╗███████╗██╗░░██╗
+░██████╗███████╗██╗░░░██╗███████╗██╗░░██╗
 ██╔════╝██╔════╝██║░░░██║██╔════╝╚██╗██╔╝
 ╚█████╗░█████╗░░╚██╗░██╔╝█████╗░░░╚███╔╝░
 ░╚═══██╗██╔══╝░░░╚████╔╝░██╔══╝░░░██╔██╗░
@@ -219,7 +219,7 @@ else:
     tag = "AM"
     
 #_________MAIN MENU_________#
-def AVI():
+def SEVEX():
     try:
                 clear()        
                 x = ("***")
@@ -235,7 +235,7 @@ def AVI():
                         if xd in ['1','0']:
                                 clear()
                                 
-                                print('\x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mPUT FILE EXAMPLE \x1b[38;5;8m:  \033[1;37m/sdcard/AVI.txt ')
+                                print('\x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mPUT FILE EXAMPLE \x1b[38;5;8m:  \033[1;37m/sdcard/sevex.txt ')
                                 line()
                                 file = input('\x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mFILE PATH \x1b[38;5;8m: \033[0;32m')
                                 try:
@@ -243,7 +243,7 @@ def AVI():
                                 except FileNotFoundError:
                                         print('\033[0;97m[•]\x1b[1;91m FILE LOCATION NOT FOUND')
                                         time.sleep(1)
-                                        AVI()
+                                        SEVEX()
                                 clear()
                                 print("\x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mCHOOSE METHOD 4")
                                 line()
@@ -442,4 +442,4 @@ def newidx(ids,names,passlist):
 		time.sleep(20)
 	except Exception as e:
 		pass
-AVI()
+SEVEX()
