@@ -169,18 +169,20 @@ def clear():
 	print(logo)
 logo =(""" \x1b[38;5;8m
 
-░██████╗███████╗██╗░░░██╗███████╗██╗░░██╗
-██╔════╝██╔════╝██║░░░██║██╔════╝╚██╗██╔╝
-╚█████╗░█████╗░░╚██╗░██╔╝█████╗░░░╚███╔╝░
-░╚═══██╗██╔══╝░░░╚████╔╝░██╔══╝░░░██╔██╗░
-██████╔╝███████╗░░╚██╔╝░░███████╗██╔╝╚██╗
-╚═════╝░╚══════╝░░░╚═╝░░░╚══════╝╚═╝░░╚═╝
+8888888b.  8888888b.   .d88888b.  
+888   Y88b 888   Y88b d88P" "Y88b 
+888    888 888    888 888     888 
+888   d88P 888   d88P 888     888 
+8888888P"  8888888P"  888     888 
+888        888 T88b   888     888 
+888        888  T88b  Y88b. .d88P 
+888        888   T88b  "Y88888P"  
                     
    
-    [\033[1;32m×\x1b[38;5;8m] \033[1;37mTOOL NAME          \x1b[38;5;8m:   \033[1;37mSEVEX TOOL
+    [\033[1;32m×\x1b[38;5;8m] \033[1;37mTOOL NAME          \x1b[38;5;8m:   \033[1;37mPRO TOOL
     \x1b[38;5;8m[\033[1;32m×\x1b[38;5;8m] \033[1;37mTOOL OWNER         \x1b[38;5;8m:   \033[1;37mSEVEN ACHARII 
     \x1b[38;5;8m[\033[1;32m×\x1b[38;5;8m] \033[1;37mTOOL TYPE          \x1b[38;5;8m:   \033[1;37mFILE CLONING
-    \x1b[38;5;8m[\033[1;32m×\x1b[38;5;8m] \033[1;37mTOOL VERSION      \x1b[38;5;8m :   \033[1;36m0.1 
+    \x1b[38;5;8m[\033[1;32m×\x1b[38;5;8m] \033[1;37mTOOL VERSION      \x1b[38;5;8m :   \033[1;36m0.2 
 \033[1;37m====================================================""")
 
 def line():
@@ -281,8 +283,8 @@ def SEVEN():
                                         clear()
                                         total_ids = str(len(fo))
                                         
-                                        print(f'  \x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mALIVE IDS SAVE IN  \033[38;5;8m:   \033[1;32mSEVEXm{mthd}-OK.txt') 
-                                        print(f'  \x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mCOOKIES SAVE IN    \033[38;5;8m:   \033[1;32mSEVEXm{mthd}-COOKIES.txt') 
+                                        print(f'  \x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mALIVE IDS SAVE IN  \033[38;5;8m:   \033[1;32mSEVENm{mthd}-OK.txt') 
+                                        print(f'  \x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mCOOKIES SAVE IN    \033[38;5;8m:   \033[1;32mSEVENm{mthd}-COOKIES.txt') 
                                         print(f'  \x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mMETHOD            \x1b[38;5;8m :   \033[1;32mM{mthd}')
                                         print(f"  \x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mCLONING STARTED   \033[38;5;8m :   \033[1;36m"+str(a)+"\033[1;37m:\033[1;36m"+str(lt()[4])+" "+ tag+"\x1b[1;32m")
                                         line()
@@ -325,7 +327,7 @@ def SEVEN():
                                 os.system('python sevenpro.py')
                         elif xd in ['0','00']:
                                 clear()
-                                print('  ⪼THANK YOU FOR USING SEVEN TOOL !!! ')
+                                print('  ⪼THANK YOU FOR USING PRO TOOL !!! ')
                                 exit()
                         
                         
