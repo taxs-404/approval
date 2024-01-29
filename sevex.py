@@ -232,7 +232,7 @@ def AVI():
                         line()
                         xd=input('\x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mCHOOSE \x1b[38;5;8m: \033[1;37m')
                         
-                        if xd in ['A','0']:
+                        if xd in ['1','0']:
                                 clear()
                                 
                                 print('\x1b[38;5;8m  [\033[1;32m×\x1b[38;5;8m] \033[1;37mPUT FILE EXAMPLE \x1b[38;5;8m:  \033[1;37m/sdcard/AVI.txt ')
@@ -442,4 +442,4 @@ def newidx(ids,names,passlist):
 		time.sleep(20)
 	except Exception as e:
 		pass
-SEVEX()
+AVI()
