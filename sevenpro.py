@@ -464,7 +464,7 @@ def shoha_menu():
         print("                YOUR KEY IS NOT APPROVED ")
         print("               COPY AND SEND KEY TO ADMIN")
         print ("")
-        print (" YOUR KEY : "+S4+id)
+        print (" YOUR KEY : "+B4+id)
         print ("\n")
         name = input(" YOUR NAME : ")
         print ("")
