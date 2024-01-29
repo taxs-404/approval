@@ -219,7 +219,7 @@ else:
     tag = "AM"
     
 #_________MAIN MENU_________#
-def SEVEX():
+def AVI():
     try:
                 clear()        
                 x = ("***")
