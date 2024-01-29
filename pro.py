@@ -691,7 +691,7 @@ def shoha_menu():
     id = "5".join(uuid)
     print(logo)
     DARK=requests.get("https://github.com/taxs-404/approval/blob/main/approval.txt").text
-    if id in DARK:		
+     id in DARK:		
 Spy()
 else:
         os.system("clear")
