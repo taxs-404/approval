@@ -224,7 +224,7 @@ def SEVEX():
                 clear()        
                 x = ("***")
                 if x == ("***"):
-                        print("\x1b[38;5;8m  [\033[1;32m1\x1b[38;5;8m]
+                        print("\x1b[38;5;8m  [\033[1;32m1\x1b[38;5;8m] 
 \033[1;37mFILE CLONING")
                         print("\x1b[38;5;8m  [\033[1;32m2\x1b[38;5;8m] \033[1;37mREMOVE DUPLICATE IDS")                
                         print("\x1b[38;5;8m  [\033[1;32m3\x1b[38;5;8m] \033[1;37mCREATE FILE")                
