@@ -359,11 +359,11 @@ logo ="""
 \033[1;97md88P     888 d8888888888 8888888 
 
 \033[1;27m==================================================
-[] AUTHOR      :  ART CÉ
-[] TOOLS        :  FILE CLONING 
-[] TYPE          :  PAID/FREE TOOL   
+[] AUTHOR    :  ART CÉ
+[] TOOLS     :  FILE CLONING 
+[] TYPE      :  PAID/FREE TOOL   
 [] FACEBOOK  :  ART CÉ ACHARII
-[] VERSION     :  0.1
+[] VERSION   :  0.1
 =================================================="\033[1;27m"""
 os.system('clear')
 print(logo)
